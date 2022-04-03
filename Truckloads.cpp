@@ -4,8 +4,11 @@
 using namespace std;
 int Truckloads::numTrucks(int numCrates, int loadSize)
 {
-    if (numCrates <= 0 || loadSize <= 0) {
+    if (numCrates < 0 || loadSize < 0) {
         return -1;
+    }
+    else if (numCrates < 0 || loadSize < 0) {
+        return 0;
     }
     //cout << "_____ " << endl;
     int truckLoads = 0;
