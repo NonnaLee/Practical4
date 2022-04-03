@@ -15,6 +15,9 @@ string Reverse::reverseString(string letters)
 
 int Reverse::reverseDigit(int value)
 {
+    if (value < 0) {
+        throw "ERROR";
+    }
     string s = to_string(value);
     string value2 = reverseString(s);
     return stoi(value2);
