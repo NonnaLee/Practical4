@@ -12,11 +12,15 @@ string Reverse::reverseString(string letters)
     }
     return value2;
 }
+string Reverse::reverseString(int letters)
+{
+    return "ERROR";
+}
 
 int Reverse::reverseDigit(int value)
 {
     if (value < 0) {
-        throw "ERROR";
+        return -1;
     }
     string s = to_string(value);
     string value2 = reverseString(s);
