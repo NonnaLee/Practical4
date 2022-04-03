@@ -5,7 +5,8 @@
 using namespace std;
 string reverseString(string letters) {
     string value2 = letters;
-    for (int i = 0; i < letters.size(); i++) {
+    int size = letters.size();
+    for (int i = 0; i < size; i++) {
         value2[i] = letters[letters.size() - i - 1];
     }
     return value2;

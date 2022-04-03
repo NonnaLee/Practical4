@@ -17,7 +17,7 @@ int EfficientTruckloads::numTrucks(int numCrates, int loadSize)
         int half1 = floor(half);
         int half2 = ceil(half);
         // HALF 1
-        if (mem[half1] != NULL) {
+        if (mem[half1] != 0) {
             //cout << "use Mem [" << half1 << "]" << endl;
             truckLoads += mem[half1];
         }
@@ -25,7 +25,7 @@ int EfficientTruckloads::numTrucks(int numCrates, int loadSize)
             truckLoads += numTrucks(half1, loadSize);
         }
         // HALF 2
-        if (mem[half2] != NULL) {
+        if (mem[half2] != 0) {
             //cout << "use Mem ["<< half2 <<"]"<< endl;
             truckLoads += mem[half2];
         }
