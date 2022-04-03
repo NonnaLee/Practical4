@@ -5,6 +5,7 @@
 #include <string>
 #include "Reverse.h"
 #include "Truckloads.h"
+#include "EfficientTruckloads.h"
 
 using namespace std;
 
@@ -19,7 +20,8 @@ int main()
     string str1 = reverseString("ABCDE");
     cout << str1;
     */
-    Truckloads truckLoads = Truckloads();
+    // Truckloads truckLoads = Truckloads();
+    EfficientTruckloads truckLoads = EfficientTruckloads();
     int totalTrucks = truckLoads.numTrucks(14, 3);
     cout << totalTrucks;
 }

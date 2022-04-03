@@ -14,8 +14,9 @@ int Truckloads::numTrucks(int numCrates, int loadSize)
         float half = float(numCrates) / float(2);
         //cout << "Half 1 " << ceil(half) << endl;
         //cout << "Half 2 " << floor(half) << endl;
-        truckLoads += numTrucks(ceil(half), loadSize);
         truckLoads += numTrucks(floor(half), loadSize);
+        truckLoads += numTrucks(ceil(half), loadSize);
+
     }
 
     return truckLoads;

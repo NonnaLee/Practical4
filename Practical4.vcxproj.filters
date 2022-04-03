@@ -24,12 +24,18 @@
     <ClCompile Include="Truckloads.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="EfficientTruckloads.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Reverse.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Truckloads.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EfficientTruckloads.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
