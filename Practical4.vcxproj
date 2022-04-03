@@ -141,10 +141,11 @@
   <ItemGroup>
     <ClCompile Include="Practical4.cpp" />
     <ClCompile Include="Reverse.cpp" />
+    <ClCompile Include="Truckloads.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Practical4.h" />
     <ClInclude Include="Reverse.h" />
+    <ClInclude Include="Truckloads.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

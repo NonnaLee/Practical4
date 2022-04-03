@@ -21,12 +21,15 @@
     <ClCompile Include="Reverse.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Truckloads.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Practical4.h">
+    <ClInclude Include="Reverse.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Reverse.h">
+    <ClInclude Include="Truckloads.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

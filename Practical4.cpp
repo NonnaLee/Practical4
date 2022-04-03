@@ -4,6 +4,7 @@
 #include <iostream>
 #include <string>
 #include "Reverse.h"
+#include "Truckloads.h"
 
 using namespace std;
 
@@ -11,12 +12,16 @@ using namespace std;
 
 int main()
 {
-
+    /*
     int val = reverseDigit(12345);
     cout << val << endl;
 
     string str1 = reverseString("ABCDE");
     cout << str1;
+    */
+    Truckloads truckLoads = Truckloads();
+    int totalTrucks = truckLoads.numTrucks(14, 3);
+    cout << totalTrucks;
 }
 
 
