@@ -1,7 +1,6 @@
 #pragma once
 #include <string>
-using namespace std;
 class Reverse {
-	string reverseString(string letters);
+	std::string reverseString(std::string letters);
 	int reverseDigit(int value);
 };
