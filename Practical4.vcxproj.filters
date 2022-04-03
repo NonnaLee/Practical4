@@ -18,5 +18,16 @@
     <ClCompile Include="Practical4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Reverse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Practical4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Reverse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
