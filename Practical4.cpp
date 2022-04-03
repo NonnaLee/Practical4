@@ -13,17 +13,19 @@ using namespace std;
 
 int main()
 {
+    /*
     Reverse reverse = Reverse();
     int val = reverse.reverseDigit(-14);
     cout << val << endl;
 
     string str1 = reverse.reverseString("ABCDE");
     cout << str1;
+    */
     
-    // Truckloads truckLoads = Truckloads();
-    // EfficientTruckloads truckLoads = EfficientTruckloads();
-    // int totalTrucks = truckLoads.numTrucks(14, 3);
-    // cout << totalTrucks;
+    Truckloads truckLoads = Truckloads();
+    //EfficientTruckloads truckLoads = EfficientTruckloads();
+    int totalTrucks = truckLoads.numTrucks(14,3);
+    cout << totalTrucks;
 }
 
 

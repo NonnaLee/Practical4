@@ -4,6 +4,9 @@
 using namespace std;
 int Truckloads::numTrucks(int numCrates, int loadSize)
 {
+    if (numCrates <= 0 || loadSize <= 0) {
+        return -1;
+    }
     //cout << "_____ " << endl;
     int truckLoads = 0;
     if (numCrates <= loadSize) {
@@ -14,9 +17,14 @@ int Truckloads::numTrucks(int numCrates, int loadSize)
         float half = float(numCrates) / float(2);
         //cout << "Half 1 " << ceil(half) << endl;
         //cout << "Half 2 " << floor(half) << endl;
-        truckLoads += numTrucks(floor(half), loadSize);
-        truckLoads += numTrucks(ceil(half), loadSize);
-
+        int half1 = floor(half);
+        int half2 = ceil(half);
+        if (half1 >= 0) {
+            truckLoads += numTrucks(half1, loadSize);
+        }
+        if (half2 >= 0) {
+            truckLoads += numTrucks(half2, loadSize);
+        }
     }
 
     return truckLoads;
