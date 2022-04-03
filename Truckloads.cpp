@@ -30,3 +30,12 @@ int Truckloads::numTrucks(int numCrates, int loadSize)
     return truckLoads;
     // return 0;
 }
+int Truckloads::numTrucks(float numCrates, int loadSize) {
+    return -1;
+}
+int Truckloads::numTrucks(float numCrates, float loadSize) {
+    return -1;
+}
+int Truckloads::numTrucks(int numCrates, float loadSize) {
+    return -1;
+}
